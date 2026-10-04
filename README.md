@@ -6,9 +6,9 @@ Dasbor visualisasi interaktif untuk Ujian Akhir Semester mata kuliah **Visualisa
 
 | | |
 |---|---|
-| **Tautan dasbor (publik, tanpa login)** | `https://USERNAME.github.io/NAMA-REPO/` ← ganti setelah deploy |
+| **Tautan dasbor (publik, tanpa login)** | `https://ferdians13086.github.io/Visualisasi_Data_dan_Informasi_UAS` ← ganti setelah deploy |
 | **Repositori** | `https://github.com/USERNAME/NAMA-REPO` ← ganti setelah deploy |
-| **Penulis** | *(isi nama dan NIM)* |
+| **Penulis** | *Ferdian Saputra (222313086)* |
 | **Teknologi** | HTML, CSS, JavaScript, [D3.js v7.9.0](https://d3js.org) (dimuat dari CDN cdnjs); pengolahan data dengan Python |
 
 ---
