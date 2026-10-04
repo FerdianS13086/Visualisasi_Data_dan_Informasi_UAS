@@ -7,8 +7,8 @@ Dasbor visualisasi interaktif untuk Ujian Akhir Semester mata kuliah **Visualisa
 | | |
 |---|---|
 | **Tautan dasbor (publik, tanpa login)** | `https://ferdians13086.github.io/Visualisasi_Data_dan_Informasi_UAS` ← ganti setelah deploy |
-| **Repositori** | `https://github.com/USERNAME/NAMA-REPO` ← ganti setelah deploy |
-| **Penulis** | *Ferdian Saputra (222313086)* |
+| **Repositori** | `https://github.com/FerdianS13086/Visualisasi_Data_dan_Informasi_UAS` ← ganti setelah deploy |
+| **Penulis** | *Ferdian Saputra (3SD2 - 222313086)* |
 | **Teknologi** | HTML, CSS, JavaScript, [D3.js v7.9.0](https://d3js.org) (dimuat dari CDN cdnjs); pengolahan data dengan Python |
 
 ---
@@ -129,17 +129,7 @@ python analisis.py
 
 Keluarannya (`data_terolah.csv`, `edges_knn.csv`, `data.json`) akan sama dengan yang ada di folder `data/`. Dengan versi pustaka berbeda, penomoran komunitas Louvain dapat berubah. Dasbor dikembangkan dengan pandas 3.0, numpy 2.4, scikit-learn 1.8, networkx 3.6, dan openpyxl 3.1.
 
-## 6. Deploy
-
-Dasbor adalah situs statis. Ringkasan deploy ke **GitHub Pages** (gratis, tanpa login bagi pengunjung):
-
-1. Buat repositori **Public** di GitHub, lalu unggah seluruh isi folder ini (`index.html` harus berada di akar repositori).
-2. Buka **Settings → Pages**, pilih *Deploy from a branch*, cabang `main`, folder `/ (root)`, lalu **Save**.
-3. Tunggu 1 sampai 3 menit. Dasbor aktif di `https://USERNAME.github.io/NAMA-REPO/`.
-
-Alternatif: Netlify, Vercel, Cloudflare Pages, atau Hugging Face Spaces (tipe Static).
-
-## 7. Pemenuhan ketentuan minimal
+## 6. Pemenuhan ketentuan minimal
 
 | Ketentuan | Pemenuhan |
 |---|---|
@@ -156,13 +146,9 @@ Alternatif: Netlify, Vercel, Cloudflare Pages, atau Hugging Face Spaces (tipe St
 | Ukuran dan warna = dua variabel berbeda | Ukuran = realisasi pendapatan daerah; warna = rasio penerimaan pajak |
 | Drill-down/zoom dengan breadcrumb | Klik kawasan; breadcrumb pada kedua visual |
 
-## 8. Keterbatasan
+## 7. Keterbatasan
 
 - Data hanya satu tahun (2024). Angka provinsi pemekaran Papua berasal dari tahun-tahun awal pembentukan sehingga mudah berubah.
 - Hasil klaster (k = 4) dan graf kNN (k = 5) bergantung pada pilihan parameter. Korelasi tidak membuktikan sebab-akibat.
 - Penjelasan penyebab (misalnya industri tambang atau transfer pusat) memerlukan data tambahan di luar dasbor ini.
 - Palet untuk jenis buta warna dirancang berdasarkan prinsip umum dan belum diuji dengan penderita langsung.
-
-## 9. Lisensi dan atribusi
-
-Data bersumber dari BPS dan DJPK Kemenkeu; hak atas data tetap pada penyedia asli, dan penggunaannya tunduk pada ketentuan layanan masing-masing. Pilih lisensi untuk kode repositori ini sesuai kebutuhan (misalnya MIT) dan tambahkan berkas `LICENSE`.
